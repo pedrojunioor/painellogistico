@@ -1,0 +1,27 @@
+.box {
+  display: flex;
+  flex-flow: column;
+  height: 100vh;
+
+  .header {
+    flex-grow: 0;
+    flex-basis: auto;
+    padding: 1rem;
+  }
+  
+  .content {
+    flex-grow: 1;
+    flex-basis: auto;
+    padding: 1rem;
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+  }
+  
+  .footer {
+    display: flex;
+    flex-grow: 0;
+    flex-basis: 20px;
+    justify-content: center;
+    color: white;
+  }
+}
